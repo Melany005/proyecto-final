@@ -1,0 +1,60 @@
+.contenedor {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.boton,
+.botonEliminar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.boton {
+    background-color: #6254c7;
+}
+
+.estudiante {
+    margin: 15px auto;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+.estudiante p {
+    margin: 8px;
+}
+
+.estudiante h2 {
+    margin: 8px;
+    color: #6254c7;
+}
+
+.botonEliminar {
+    background-color: #c0392b;
+}
+
+.botonEliminar:hover {
+    background-color: #a93226;
+}
